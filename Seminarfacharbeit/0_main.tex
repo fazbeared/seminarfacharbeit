@@ -8,6 +8,11 @@
 \setcounter{secnumdepth}{5} % seting level of numbering (default for "report" is 3). With ''-1'' you have non number also for chapters
 \setcounter{tocdepth}{5} % if you want all the levels in your table of contents
 \usepackage[ngerman]{babel}
+\newcommand{\zit}[3]{(#1 #2: #3)}
+\newcommand{\vgl}[3]{(vgl. #1 #2: #3)}
+\newcommand{\so}[3]{#1 (#2: #3)}
+\usepackage{listings}
+
 
 %\usepackage[scaled]{helvet}
 %\renewcommand{\familydefault}{\sfdefault}
@@ -27,13 +32,11 @@
 \usepackage{packages/sleek-title}
 \logo{Abbildungen/logo.png}
 \title{Untersuchung der Veränderung des phänologischen Kalenders der Pflanzen im Bezug auf klimatische Unterschiede am Fallbeispiel Jenas}
-\institute{Staatliche Gemeinschaftsschule Kaleidoskop Jena}
-\faculty{\normalsize Karl-Marx-Allee 11 \\ \normalsize 07747 Jena}
-\author{\Large Friedemann Müller \\ Merle Lipowsky \\ Erik Driesch}  
+\institute{\large Staatliche Gemeinschaftsschule Kaleidoskop Jena}
+\faculty{\normalsize Karl-Marx-Allee 11 \\ \normalsize 07747 Jena \\ \vspace{1cm} \LARGE Seminarfacharbeit} 
+\author{\Large Erik Driesch \\ Friedemann Müller \\ Merle Lipowsky}  
  
-\supervisor{\small Seminarfachlehrer: Dr. Clement 
-\\      \small Fachbetreuerin: Dr. Krempl 
-\\      \small Außenbetreuerin: Dr. Bucher}
+\supervisor{ \large Seminarfachlehrer: Dr. Clement \\ Fachbetreuerin: Dr. Krempl \\ AußenbetreuerInnen: Dr. Bucher \\ \hfil Dr. Rauschkolb}
 
 
 \date{Oktober 2023}
@@ -41,9 +44,9 @@
 \begin{document}
 
 \setmainfont{Arial} %sets main font, who would have guessed
-
 \maketitle
-\includepdf[pages=-]{Abbildungen/Titelseite.pdf}
+\setcounter{page}{2} %makes pagenumbering start at 2 in toc
+
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
 \tableofcontents
 \newpage
