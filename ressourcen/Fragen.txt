@@ -1,2 +1,8 @@
 Einhängen von Gemachten Fotos in die Arbeitsmappe
 Soll das Versuchsprotkoll in die Arbeitseingebunden werden? Ich glaube mir fehlt dann der Umfang trotz der vielen Seiten...
+
+Schema, wie die Daten verärbeitet werden sollen
+
+
+Eigenanteil: Ich knüpfe an den aktuellen Wissenstand der Veränderung der Phänologie unter Betrachtung des Klimawandels an, indem ich den Zusammenhang zwischen dem Klimawandel und der
+Veränderung der Phänologie prägnant visualisiere. Dafür Werte ich eigene Daten aus und visualisiere diese zusammen mit den von Hasenclever erhobenen Daten.
